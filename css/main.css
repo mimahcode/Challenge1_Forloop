@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+.clients-section{
+    display: block;
+}
+
+.client-name{
+    display: flex;
+    flex-direction: row;
+}
+
+#client1, #client2, #client3, #client4 {
+    width: 20%;
+    height: 20%;
+}
