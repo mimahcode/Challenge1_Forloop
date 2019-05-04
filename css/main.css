@@ -8,9 +8,15 @@ body{
 .client-name{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-#client1, #client2, #client3, #client4 {
+#client1, #client2, #client3 {
     width: 20%;
     height: 20%;
+}
+#client4{
+    width: 180px;
+    height: 180px;
 }
