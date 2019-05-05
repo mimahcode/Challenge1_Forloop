@@ -1,0 +1,65 @@
+        #leftbox { 
+                float:left;  
+                
+                width:25%; 
+                height:100px; 
+            } 
+
+         #rightbox{
+
+         		text-align: right; 
+                float:right; 
+                
+                width:25%; 
+                align-items: center;
+                height:100px; 
+                
+            
+            } 
+
+         
+        #middlebox{ 
+                float:left;  
+                align-content: center;
+                width:50%; 
+                height:100px; 
+            }
+        #sticky {
+                position: sticky;
+        }
+
+        #title{
+                position: fixed; 
+                left: 40%;
+                top: 20px;
+        }
+
+        #intro {
+                margin-top: 70px;    
+                
+                align-content: center;
+
+        }
+        #do {
+            margin-top: 400px;    
+            width: 40%;
+            
+            
+        }
+
+        #contact{
+           margin-left: 35%;
+		}
+
+        #bgimage{
+            background-image: url("images/bg.jpg");
+        }
+        
+
+        img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                line-height: 100px;
+            
+          }
